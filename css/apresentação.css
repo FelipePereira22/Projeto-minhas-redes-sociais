@@ -1,0 +1,94 @@
+:root{
+    --fundo-site: #141414;
+    --fundo-container: #1F1F1F;
+    --fundo-botao: #333333;
+    --branco: #D9D9D9;
+    --verde: #798B3C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:  var(--branco);
+}
+
+body{
+    background-color: var(--fundo-site);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: var(--fundo-container);
+    width: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 100px;
+    margin-top: 13px;
+}
+
+#cidade{
+    color: var(--verde);
+    transform: translateY(-90%);
+}
+
+#devfront{
+    transform: translateY(-90%);
+}
+
+#conteudo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#botoes{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+#botoes a{
+    background: var(--fundo-botao);
+    text-decoration: none;
+    width: 80%;
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 0 7px 0;
+    transition: 0.8s;
+}
+
+#botoes a:hover{
+    background: transparent;
+    border: 1px solid var(--verde);
+    transform: translateY(-10%);
+    width: 85%;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    main{
+        width: 25rem;
+    }
+}
+
+
+
+
+
