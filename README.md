@@ -1,6 +1,6 @@
 # Link-in-Bio / Agregador de Redes Sociais 🌐
 
-> 🔗 **[Clique aqui para acessar o projeto no ar]((https://felipepereira22.github.io/Projeto-minhas-redes-sociais/))**
+> 🔗 **[Clique aqui para acessar o projeto no ar](https://felipepereira22.github.io/Projeto-minhas-redes-sociais/)**
 
 Uma aplicação web estilo "Linktree" desenvolvida para centralizar e apresentar de forma elegante minhas principais redes sociais, portfólio e canais de contato. O projeto foca em uma interface minimalista e de alta legibilidade.
 
